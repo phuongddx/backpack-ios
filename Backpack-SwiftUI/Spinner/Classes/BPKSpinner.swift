@@ -17,7 +17,6 @@
  */
 
 import SwiftUI
-import Backpack_Common
 
 struct LoadingCapsule: View {
     let size: BPKSpinner.Size

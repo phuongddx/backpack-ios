@@ -17,7 +17,6 @@
  */
 
 import SwiftUI
-import Backpack_Common
 
 public struct BPKSkeleton: View {
     private let type: BPKSkeleton.ViewType

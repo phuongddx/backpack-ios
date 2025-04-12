@@ -16,6 +16,9 @@
  * limitations under the License.
  */
 
+import Foundation
+import UIKit
+
 extension BPKSkeleton {
     public enum Style {
         case `default`, rounded

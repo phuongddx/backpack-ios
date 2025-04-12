@@ -17,7 +17,6 @@
  */
 
 import SwiftUI
-import Backpack_Common
 
 public struct BPKPrice: View {
     public enum Size {

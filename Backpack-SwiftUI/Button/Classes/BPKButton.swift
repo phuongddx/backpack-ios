@@ -17,7 +17,6 @@
  */
 
 import SwiftUI
-import Backpack_Common
 
 public struct BPKButton: View {
     private let title: String?

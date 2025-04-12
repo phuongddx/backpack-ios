@@ -16,6 +16,8 @@
  * limitations under the License.
  */
 
+import UIKit
+
 protocol BPKButtonColorSet {
     var regular: BPKButtonColors { get }
     var highlighted: BPKButtonColors { get }

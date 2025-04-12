@@ -16,8 +16,8 @@
  * limitations under the License.
  */
 
+import Foundation
 import SwiftUI
-import Backpack_Common
 
 public struct BPKCarousel<Content: View>: View {
     private let images: [Content]

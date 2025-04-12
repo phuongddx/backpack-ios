@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-import Backpack_Common
+import Foundation
 
 public struct BPKIcon {
     public let name: String
