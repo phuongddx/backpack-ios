@@ -16,6 +16,9 @@
  * limitations under the License.
  */
 
+import Foundation
+import UIKit
+
 /// Backpack Static Colors
 public extension BPKColor {
     private init(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) {

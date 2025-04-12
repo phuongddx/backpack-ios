@@ -16,6 +16,9 @@
  * limitations under the License.
  */
 
+import Foundation
+import UIKit
+
 // swiftlint:disable file_length
 public extension BPKIcon {
     static let accessibility = BPKIcon(name: "accessibility")

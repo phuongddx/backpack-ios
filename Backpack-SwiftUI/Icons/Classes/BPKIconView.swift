@@ -17,7 +17,6 @@
  */
 
 import SwiftUI
-import Backpack_Common
 
 public struct BPKIconView: View {
     let icon: BPKIcon
@@ -67,6 +66,32 @@ public struct BPKIconView: View {
     private var shouldAutoMirror: Bool {
         BPKAutoMirrorIconNames.items.contains(icon.name)
     }
+}
+
+public struct BPKAutoMirrorIconNames {
+    public static let items = [
+        "arrow-left",
+        "arrow-right",
+        "chevron-left",
+        "chevron-right",
+        "depart",
+        "fast-track",
+        "list",
+        "long-arrow-left",
+        "long-arrow-right",
+        "native-android--back",
+        "native-android--forward",
+        "policy",
+        "return",
+        "share",
+        "star-half",
+        "swap--horizontal",
+        "swap--vertical",
+        "trend--down",
+        "trend--steady",
+        "trend--will-rise",
+        "trend"
+    ]
 }
 
 private extension BPKIcon.Size {
