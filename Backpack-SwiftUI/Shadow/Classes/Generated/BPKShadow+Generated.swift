@@ -16,6 +16,9 @@
  * limitations under the License.
  */
 
+import Foundation
+import SwiftUI
+
 public extension BPKShadow {
     
     /// The Skyscanner small shadow.
@@ -23,4 +26,9 @@ public extension BPKShadow {
 
     /// The Skyscanner large shadow.
     static let lg = BPKShadow(color: .shadowLgColor, radius: 16, offset: Offset(x: 0, y: 4), opacity: 0.15)
+
+    /// Custom
+    static func customWith(color: BPKColor, radius: CGFloat = 8, opacity: Double = 0.4) -> BPKShadow {
+        BPKShadow(color: color, radius: radius, offset: Offset(x: 0, y: 4), opacity: opacity)
+    }
 }

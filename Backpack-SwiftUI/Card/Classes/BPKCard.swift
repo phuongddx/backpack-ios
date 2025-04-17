@@ -20,7 +20,7 @@ import SwiftUI
 
 public struct BPKCard<Content: View>: View {
     public enum CornerStyle {
-        case large, small
+        case large, small, custom(value: CGFloat)
     }
 
     public enum Padding {
@@ -50,7 +50,14 @@ public struct BPKCard<Content: View>: View {
     }
 
     private var cornerRadius: BPKCornerRadius {
-        cornerStyle == .small ? .sm : .lg
+        switch cornerStyle {
+            case .large:
+                return .lg
+            case .small:
+                return .sm
+            case .custom(let value):
+                return BPKCornerRadius(value: value)
+        }
     }
 
     public var body: some View {

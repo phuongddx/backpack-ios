@@ -20,6 +20,9 @@ import SwiftUI
 
 public struct BPKColor: Sendable {
     public let value: UIColor
+    public init(value: UIColor) {
+        self.value = value
+    }
 }
 
 extension BPKColor {

@@ -134,7 +134,7 @@ public extension View {
     ///
     /// - Returns: A view with fixed dimensions of `width` and `height`, for the
     ///   parameters that are non-`nil`.
-    func frame(width: BPKSpacing? = nil, height: BPKSpacing? = nil, alignment: Alignment = .center) -> some View {
+    internal func frame(width: BPKSpacing? = nil, height: BPKSpacing? = nil, alignment: Alignment = .center) -> some View {
         frame(width: width?.value, height: height?.value, alignment: alignment)
     }
 

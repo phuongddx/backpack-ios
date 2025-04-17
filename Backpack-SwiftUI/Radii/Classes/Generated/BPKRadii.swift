@@ -22,7 +22,7 @@ import SwiftUI
 public struct BPKCornerRadius {
     public let value: CGFloat
     
-    private init(value: CGFloat) {
+    internal init(value: CGFloat) {
         self.value = value
     }
 }
